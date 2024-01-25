@@ -21,4 +21,9 @@ public enum Rank {
   Rank(String symbol) {
     this.symbol = symbol;
   }
+
+  public String symbol() {
+    return symbol;
+  }
+
 }
