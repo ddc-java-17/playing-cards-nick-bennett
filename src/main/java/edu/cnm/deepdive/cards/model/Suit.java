@@ -4,10 +4,10 @@ package edu.cnm.deepdive.cards.model;
 public enum Suit {
 
   // Char constructor arguments are Unicode suit characters.
-  CLUBS('\u2663', Color.BLACk),
+  CLUBS('\u2663', Color.BLACK),
   DIAMONDS('\u2662', Color.RED),
   HEARTS('\u2661', Color.RED),
-  SPADES('\u2660', Color.BLACk);
+  SPADES('\u2660', Color.BLACK);
 
   private final char symbol;
   private final Color color;
@@ -27,7 +27,7 @@ public enum Suit {
 
   public enum Color {
 
-    BLACk, RED;
+    BLACK, RED;
 
   }
 
